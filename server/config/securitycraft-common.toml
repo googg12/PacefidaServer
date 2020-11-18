@@ -1,5 +1,5 @@
 #Can the codebreaker be used?
-allowCodebreakerItem = true
+allowCodebreakerItem = false
 #Can the admin tool be used?
 allowAdminTool = false
 #Should mines spawn fire after exploding?
