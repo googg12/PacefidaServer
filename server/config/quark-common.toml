@@ -221,7 +221,7 @@
 		"Render Items In Chat" = true
 
 [tools]
-	Pickarang = true
+	Pickarang = false
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
