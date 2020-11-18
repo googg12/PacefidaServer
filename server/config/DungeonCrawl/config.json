@@ -27,11 +27,11 @@
     "minecraft:frozen_river",
     "byg:mangrove_marshes",
     "byg:fresh_water_lake",
-	  "byg:frozen_lake",
-	  "byg:oasis",
-	  "byg:polluted_lake",
-	  "byg:coral_mangroves",
-	  "byg:great_lakes"
+    "byg:frozen_lake",
+    "byg:oasis",
+    "byg:polluted_lake",
+    "byg:coral_mangroves",
+    "byg:great_lakes"
   ],
   "config_version": 0
 }
