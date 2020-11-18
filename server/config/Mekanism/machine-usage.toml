@@ -57,9 +57,10 @@
 	#Teleporter
 	[usage.teleporter]
 		#Base Joules cost for a teleportation.
-		teleporterBase = "1000"
+		teleporterBase = "10000000"
+		#it does not work because of the bug https://github.com/mekanism/Mekanism/issues/6715
 		#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
-		teleporterDistance = "10"
+		teleporterDistance = "0"
 		#Flat additional cost for interdimensional teleportation.
-		teleporterDimensionPenalty = "10000"
+		teleporterDimensionPenalty = "10000000"
 

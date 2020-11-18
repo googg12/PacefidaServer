@@ -36,6 +36,7 @@ downlaod_file "https://edge.forgecdn.net/files/3100/510/Mekanism-1.16.4-10.0.17.
 downlaod_file "https://edge.forgecdn.net/files/3100/512/MekanismGenerators-1.16.4-10.0.17.444.jar"
 downlaod_file "https://edge.forgecdn.net/files/3106/626/Quark-r2.4-275.jar"
 downlaod_file "https://edge.forgecdn.net/files/3088/871/QuarkOddities-1.16.3.jar"
+downlaod_file "https://edge.forgecdn.net/files/3104/34/rsgauges-1.16.4-1.2.6-b1.jar"
 downlaod_file "https://edge.forgecdn.net/files/3097/119/ScalableCatsForce-2.13.3-build-5-with-library.jar"
 downlaod_file "https://edge.forgecdn.net/files/3071/526/SimpleStorageNetwork-1.16.3-1.1.2.jar"
 downlaod_file "https://edge.forgecdn.net/files/3103/28/swingthroughgrass-1.16.4-1.5.3.jar"

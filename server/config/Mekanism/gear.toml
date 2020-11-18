@@ -5,7 +5,7 @@
 	#Atomic Disassembler Settings
 	[gear.atomic_disassembler]
 		#Base Energy (Joules) usage of the Atomic Disassembler. (Gets multiplied by speed factor)
-		energyUsage = "10"
+		energyUsage = "100"
 		#Cost in Joules of using the Atomic Disassembler as a weapon.
 		energyUsageWeapon = "2000"
 		#The Range of the Atomic Disassembler Extended Vein Mining.
@@ -27,7 +27,7 @@
 		#Maximum amount (joules) of energy the Atomic Disassembler can contain.
 		maxEnergy = "1000000"
 		#Amount (joules) of energy the Atomic Disassembler can accept per tick.
-		chargeRate = "5000"
+		chargeRate = "500"
 
 	#Configurator Settings
 	[gear.configurator]
@@ -54,7 +54,7 @@
 		#Maximum amount (joules) of energy the Energy Tablet can contain.
 		maxEnergy = "1000000"
 		#Amount (joules) of energy the Energy Tablet can accept per tick.
-		chargeRate = "5000"
+		chargeRate = "500"
 
 	#Flamethrower Settings
 	[gear.flamethrower]
@@ -68,9 +68,9 @@
 	#Free Runner Settings
 	[gear.free_runner]
 		#Energy cost/multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * freeRunnerFallEnergyCost. (1 FallDamage is 1 half heart)
-		fallEnergyCost = "50"
+		fallEnergyCost = "500"
 		#Maximum amount (joules) of energy Free Runners can contain.
-		maxEnergy = "64000"
+		maxEnergy = "20000"
 		#Amount (joules) of energy the Free Runners can accept per tick.
 		chargeRate = "320"
 
@@ -78,7 +78,7 @@
 	[gear.jetpack]
 		#Jetpack Gas Tank capacity in mB.
 		#Range: 1 ~ 9223372036854775807
-		maxGas = 24000
+		maxGas = 6000
 		#Amount of hydrogen the Jetpack can accept per tick.
 		#Range: 1 ~ 9223372036854775807
 		fillRate = 16
@@ -120,17 +120,17 @@
 	#Seismic Reader Settings
 	[gear.seismic_reader]
 		#Maximum amount (joules) of energy the Seismic Reader can contain.
-		maxEnergy = "12000"
+		maxEnergy = "20000"
 		#Amount (joules) of energy the Seismic Reader can accept per tick.
 		chargeRate = "60"
 		#Energy usage in joules required to use the Seismic Reader.
-		energyUsage = "250"
+		energyUsage = "1000"
 
 	#Canteen Settings
 	[gear.canteen]
 		#Maximum amount of Nutritional Paste storable by the Canteen.
 		#Range: 1 ~ 9223372036854775807
-		maxStorage = 64000
+		maxStorage = 20000
 		#Rate at which Nutritional Paste can be transferred into a Canteen.
 		#Range: 1 ~ 9223372036854775807
 		transferRate = 128
@@ -140,30 +140,30 @@
 		#Cost in Joules of using the Meka-Tool to teleport 10 blocks.
 		energyUsageTeleport = "1000"
 		#Cost in Joules of using the Meka-Tool to deal 4 units of damage.
-		energyUsageWeapon = "2000"
+		energyUsageWeapon = "20000"
 		#Maximum distance a player can teleport with the Meka-Tool.
-		maxTeleportReach = 100
+		maxTeleportReach = 1
 		#Damage applied by Meka-Tool without using any energy.
 		baseDamage = 4
 		#Efficiency of the Meka-Tool with energy but without any upgrades.
 		baseEfficiency = 4.0
 		#Energy capacity (Joules) of the Meka-Tool without any installed upgrades. Quadratically scaled by upgrades.
-		baseEnergyCapacity = "16000000"
+		baseEnergyCapacity = "1000000"
 		#Amount (joules) of energy the Meka-Tool can accept per tick. Quadratically scaled by upgrades.
 		chargeRate = "100000"
 		#Cost in Joules of using the Meka-Tool as a hoe.
-		energyUsageHoe = "10"
+		energyUsageHoe = "100"
 		#Cost in Joules of using the Meka-Tool as a shovel for making paths.
-		energyUsageShovel = "10"
+		energyUsageShovel = "100"
 		#Cost in Joules of using the Meka-Tool as an axe for stripping logs.
-		energyUsageAxe = "10"
+		energyUsageAxe = "100"
 		#Enable the 'Extended Vein Mining' mode for the Meka-Tool. (Allows vein mining everything not just ores/logs)
 		extendedMining = true
 
 	#MekaSuit Settings
 	[gear.mekasuit]
 		#Energy capacity (Joules) of MekaSuit items without any installed upgrades. Quadratically scaled by upgrades.
-		baseEnergyCapacity = "16000000"
+		baseEnergyCapacity = "2000000"
 		#Amount (joules) of energy the MekaSuit can accept per tick. Quadratically scaled by upgrades.
 		chargeRate = "100000"
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.
@@ -175,11 +175,11 @@
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.
 		energyUsageSprintBoost = "100"
 		#Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.
-		energyUsageGravitationalModulation = "1000"
+		energyUsageGravitationalModulation = "10000"
 		#Charge rate of inventory items (Joules) per tick.
 		inventoryChargeRate = "10000"
 		#Solar recharging rate (Joules) of helmet per tick, per upgrade installed.
-		solarRechargingRate = "500"
+		solarRechargingRate = "100"
 		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
 		energyUsageVisionEnhancement = "500"
 		#Energy usage (Joules) of MekaSuit per half-food of nutritional injection.
@@ -187,7 +187,7 @@
 		#Energy usage (Joules) of MekaSuit per unit of damage applied.
 		energyUsageDamage = "100000"
 		#Energy usage (Joules) of MekaSuit per tick of attracting a single item.
-		energyUsageItemAttraction = "250"
+		energyUsageItemAttraction = "500"
 		#Maximum amount of Nutritional Paste storable by the nutritional injection unit.
 		#Range: 1 ~ 9223372036854775807
 		nutritionalMaxStorage = 128000
@@ -196,7 +196,7 @@
 		nutritionalTransferRate = 256
 		#Maximum amount of Hydrogen storable in the jetpack unit.
 		#Range: 1 ~ 9223372036854775807
-		jetpackMaxStorage = 48000
+		jetpackMaxStorage = 2000
 		#Rate at which Hydrogen can be transferred into the jetpack unit.
 		#Range: 1 ~ 9223372036854775807
 		jetpackTransferRate = 256
